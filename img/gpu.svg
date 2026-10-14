@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="400" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">CPU と GPU のちがい</text>
+<!-- CPU -->
+<text x="200" y="80" text-anchor="middle" font-size="17" font-weight="700" fill="#3b6ea5">CPU = 博士が数人</text>
+<g fill="#3b6ea5">
+  <circle cx="150" cy="150" r="30"/><circle cx="250" cy="150" r="30"/><circle cx="150" cy="230" r="30"/><circle cx="250" cy="230" r="30"/>
+</g>
+<g fill="#fff" font-size="12" text-anchor="middle"><text x="150" y="155">博士</text><text x="250" y="155">博士</text><text x="150" y="235">博士</text><text x="250" y="235">博士</text></g>
+<text x="200" y="300" text-anchor="middle" font-size="13" fill="#555">難しい計算を、順番に、速く</text>
+<text x="200" y="322" text-anchor="middle" font-size="13" fill="#555">文章を書く・判断する・OS を動かす</text>
+<!-- GPU -->
+<text x="580" y="80" text-anchor="middle" font-size="17" font-weight="700" fill="#4a8a5c">GPU = 小学生が 1 万人</text>
+<g fill="#4a8a5c">
+  <g id="row"><circle cx="420" cy="120" r="7"/><circle cx="440" cy="120" r="7"/><circle cx="460" cy="120" r="7"/><circle cx="480" cy="120" r="7"/><circle cx="500" cy="120" r="7"/><circle cx="520" cy="120" r="7"/><circle cx="540" cy="120" r="7"/><circle cx="560" cy="120" r="7"/><circle cx="580" cy="120" r="7"/><circle cx="600" cy="120" r="7"/><circle cx="620" cy="120" r="7"/><circle cx="640" cy="120" r="7"/><circle cx="660" cy="120" r="7"/><circle cx="680" cy="120" r="7"/><circle cx="700" cy="120" r="7"/><circle cx="720" cy="120" r="7"/><circle cx="740" cy="120" r="7"/></g>
+  <use href="#row" y="22"/><use href="#row" y="44"/><use href="#row" y="66"/><use href="#row" y="88"/><use href="#row" y="110"/><use href="#row" y="132"/>
+</g>
+<text x="580" y="300" text-anchor="middle" font-size="13" fill="#555">単純な計算（掛けて足す）を、全員同時に</text>
+<text x="580" y="322" text-anchor="middle" font-size="13" fill="#555">もとはゲームの画面の点を一斉に塗る部品</text>
+<line x1="400" y1="95" x2="400" y2="340" stroke="#e0d8c8"/>
+<rect x="60" y="350" width="680" height="36" rx="8" fill="#f3e3d6"/>
+<text x="400" y="374" text-anchor="middle" font-size="14" fill="#b85c2a" font-weight="700">ニューラルネットの学習 = 「掛けて足す」を何兆回。画面を塗る計算と同じ形。だからゲーム部品が脳の真似に使えた</text>
+</svg>

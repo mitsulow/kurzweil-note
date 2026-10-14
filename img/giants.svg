@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="500" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">AI 研究所と、背後の巨人（2026-10 時点）</text>
+<!-- labs row -->
+<g text-anchor="middle">
+  <rect x="30" y="80" width="140" height="70" rx="10" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/><text x="100" y="108" font-weight="700" fill="#3b6ea5">OpenAI</text><text x="100" y="130" font-size="13" fill="#2b2b2b">GPT / アルトマン</text>
+  <rect x="185" y="80" width="140" height="70" rx="10" fill="#f3e3d6" stroke="#b85c2a" stroke-width="2"/><text x="255" y="108" font-weight="700" fill="#b85c2a">Anthropic</text><text x="255" y="130" font-size="13" fill="#2b2b2b">Claude / アモデイ</text>
+  <rect x="340" y="80" width="140" height="70" rx="10" fill="#e3efe6" stroke="#4a8a5c" stroke-width="2"/><text x="410" y="108" font-weight="700" fill="#4a8a5c">Google DeepMind</text><text x="410" y="130" font-size="13" fill="#2b2b2b">Gemini / ハサビス</text>
+  <rect x="495" y="80" width="140" height="70" rx="10" fill="#efe9dd" stroke="#9a9a9a" stroke-width="2"/><text x="565" y="108" font-weight="700" fill="#555">Meta AI</text><text x="565" y="130" font-size="13" fill="#2b2b2b">Llama / ザッカーバーグ</text>
+  <rect x="650" y="80" width="120" height="70" rx="10" fill="#efe9dd" stroke="#9a9a9a" stroke-width="2"/><text x="710" y="108" font-weight="700" fill="#555">xAI</text><text x="710" y="130" font-size="13" fill="#2b2b2b">Grok / マスク</text>
+</g>
+<!-- giants row -->
+<g text-anchor="middle">
+  <rect x="30" y="250" width="140" height="70" rx="10" fill="#2b2b2b"/><text x="100" y="278" font-weight="700" fill="#fff">Microsoft</text><text x="100" y="300" font-size="13" fill="#ddd">Azure</text>
+  <rect x="185" y="250" width="140" height="70" rx="10" fill="#2b2b2b"/><text x="255" y="278" font-weight="700" fill="#fff">Amazon</text><text x="255" y="300" font-size="13" fill="#ddd">AWS / Trainium</text>
+  <rect x="340" y="250" width="140" height="70" rx="10" fill="#2b2b2b"/><text x="410" y="278" font-weight="700" fill="#fff">Google</text><text x="410" y="300" font-size="13" fill="#ddd">Google Cloud / TPU</text>
+  <rect x="495" y="250" width="140" height="70" rx="10" fill="#2b2b2b"/><text x="565" y="278" font-weight="700" fill="#fff">Oracle</text><text x="565" y="300" font-size="13" fill="#ddd">Stargate</text>
+  <rect x="650" y="250" width="120" height="70" rx="10" fill="#2b2b2b"/><text x="710" y="278" font-weight="700" fill="#fff">自社</text><text x="710" y="300" font-size="13" fill="#ddd">Meta / xAI の DC</text>
+</g>
+<!-- links -->
+<g stroke-width="4" fill="none" stroke-linecap="round">
+  <line x1="100" y1="152" x2="100" y2="248" stroke="#3b6ea5"/>
+  <line x1="120" y1="152" x2="545" y2="248" stroke="#3b6ea5" opacity="0.6"/>
+  <line x1="255" y1="152" x2="255" y2="248" stroke="#b85c2a"/>
+  <line x1="275" y1="152" x2="395" y2="248" stroke="#b85c2a" opacity="0.6"/>
+  <line x1="235" y1="152" x2="120" y2="248" stroke="#b85c2a" opacity="0.4" stroke-dasharray="6 6"/>
+  <line x1="410" y1="152" x2="410" y2="248" stroke="#4a8a5c"/>
+  <line x1="565" y1="152" x2="690" y2="248" stroke="#9a9a9a"/>
+  <line x1="710" y1="152" x2="710" y2="248" stroke="#9a9a9a"/>
+  <line x1="690" y1="152" x2="585" y2="248" stroke="#9a9a9a" opacity="0.5" stroke-dasharray="6 6"/>
+</g>
+<text x="60" y="200" font-size="12" fill="#3b6ea5">2019〜 約130億$</text>
+<text x="258" y="215" font-size="12" fill="#b85c2a">最大330億$ / 100万TPU</text>
+<text x="140" y="190" font-size="11" fill="#b85c2a">2025-11〜</text>
+<text x="430" y="200" font-size="12" fill="#4a8a5c">全部自前</text>
+<!-- nvidia base -->
+<rect x="30" y="370" width="740" height="60" rx="10" fill="#4a8a5c"/>
+<text x="400" y="395" text-anchor="middle" font-weight="700" fill="#fff" font-size="16">Nvidia（GPU 設計、革ジャンのフアン）＋ TSMC（台湾、製造）</text>
+<text x="400" y="417" text-anchor="middle" fill="#e6f2e9" font-size="13">巨人たちの設備投資 2026 年 約 7,000 億ドルの大部分がここに流れる</text>
+<g stroke="#4a8a5c" stroke-width="3" opacity="0.6">
+  <line x1="100" y1="322" x2="100" y2="368"/><line x1="255" y1="322" x2="255" y2="368"/><line x1="410" y1="322" x2="410" y2="368"/><line x1="565" y1="322" x2="565" y2="368"/><line x1="710" y1="322" x2="710" y2="368"/>
+</g>
+<text x="400" y="465" text-anchor="middle" font-size="12" fill="#9a9a9a">実線 = 主要　破線 = 副　／　金額は報道値。Google だけが他人の肩に乗っていない</text>
+</svg>

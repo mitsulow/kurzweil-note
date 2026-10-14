@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="470" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">「報酬」= 1 個の数字。脳のドーパミンと同じ計算</text>
+<defs><marker id="d" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9a9a9a"/></marker></defs>
+<!-- loop -->
+<rect x="40" y="90" width="170" height="70" rx="10" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/>
+<text x="125" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#3b6ea5">AI 本体</text>
+<text x="125" y="142" text-anchor="middle" font-size="13" fill="#2b2b2b">答えを書く</text>
+<rect x="315" y="90" width="170" height="70" rx="10" fill="#efe9dd" stroke="#9a9a9a" stroke-width="2"/>
+<text x="400" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#555">報酬モデル</text>
+<text x="400" y="142" text-anchor="middle" font-size="13" fill="#2b2b2b">人間の好みを覚えた採点機</text>
+<rect x="590" y="90" width="170" height="70" rx="10" fill="#f3e3d6" stroke="#b85c2a" stroke-width="2"/>
+<text x="675" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#b85c2a">報酬 = 数字</text>
+<text x="675" y="142" text-anchor="middle" font-size="13" fill="#2b2b2b">+0.8 / −0.3</text>
+<g stroke="#9a9a9a" stroke-width="2" marker-end="url(#d)" fill="none">
+  <line x1="212" y1="125" x2="310" y2="125"/><line x1="487" y1="125" x2="585" y2="125"/>
+  <path d="M675 162 L675 200 L125 200 L125 165"/>
+</g>
+<text x="260" y="118" text-anchor="middle" font-size="12" fill="#555">答え</text>
+<text x="536" y="118" text-anchor="middle" font-size="12" fill="#555">採点</text>
+<text x="400" y="220" text-anchor="middle" font-size="13" fill="#b85c2a" font-weight="700">点が高かった書き方を強め、低かった書き方を弱める。これを何百万回</text>
+<!-- human -->
+<rect x="315" y="20" width="170" height="0" fill="none"/>
+<text x="400" y="70" text-anchor="middle" font-size="12" fill="#555">↑ 人間が「A と B どっちが良い？」を数十万回選んだデータで訓練</text>
+<!-- dopamine -->
+<line x1="40" y1="250" x2="760" y2="250" stroke="#e0d8c8" stroke-width="1"/>
+<text x="40" y="280" font-size="16" font-weight="700" fill="#2b2b2b">ドーパミンは「うれしい」ではなく「予想とのズレ」</text>
+<g font-size="14" fill="#2b2b2b">
+  <text x="60" y="320">予想より良い</text><text x="60" y="360">予想どおり</text><text x="60" y="400">予想より悪い</text>
+</g>
+<g font-size="14" text-anchor="middle">
+  <rect x="200" y="302" width="180" height="26" rx="6" fill="#4a8a5c"/><text x="290" y="321" fill="#fff" font-weight="700">ドーパミン ↑</text>
+  <rect x="200" y="342" width="180" height="26" rx="6" fill="#cfc7b8"/><text x="290" y="361" fill="#2b2b2b">変化なし</text>
+  <rect x="200" y="382" width="180" height="26" rx="6" fill="#b85c2a"/><text x="290" y="401" fill="#fff" font-weight="700">ドーパミン ↓</text>
+</g>
+<g font-size="14" fill="#2b2b2b">
+  <text x="420" y="321">= AI の TD 誤差 プラス → その行動を強める</text>
+  <text x="420" y="361">= 誤差ゼロ → 何も学ばない（毎月同じ給料）</text>
+  <text x="420" y="401">= 誤差マイナス → その行動を弱める</text>
+</g>
+<text x="400" y="445" text-anchor="middle" font-size="12" fill="#9a9a9a">1997 シュルツ（サルの実験）× サットン＆バルト（強化学習の数式）が一致。神経科学と AI がぶつかった最も有名な例</text>
+</svg>

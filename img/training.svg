@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="400" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">AI ができるまでの 3 段階</text>
+<defs><marker id="c" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9a9a9a"/></marker></defs>
+<!-- stage 1 -->
+<rect x="30" y="80" width="220" height="190" rx="12" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/>
+<text x="140" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#3b6ea5">① 深層学習</text>
+<text x="140" y="132" text-anchor="middle" font-size="13" fill="#3b6ea5">（事前学習）</text>
+<text x="140" y="165" text-anchor="middle" font-size="14" fill="#2b2b2b">ネット上の文章で</text>
+<text x="140" y="185" text-anchor="middle" font-size="14" fill="#2b2b2b">「次の単語」を当て続ける</text>
+<text x="140" y="220" text-anchor="middle" font-size="13" fill="#555">たとえ: 図書館で 10 年読む</text>
+<text x="140" y="250" text-anchor="middle" font-size="13" fill="#555">育つ: 知識・言語</text>
+<!-- stage 2 -->
+<rect x="290" y="80" width="220" height="190" rx="12" fill="#efe9dd" stroke="#9a9a9a" stroke-width="2"/>
+<text x="400" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#555">② 教師あり微調整</text>
+<text x="400" y="165" text-anchor="middle" font-size="14" fill="#2b2b2b">「良い回答の例」を</text>
+<text x="400" y="185" text-anchor="middle" font-size="14" fill="#2b2b2b">たくさん見せる</text>
+<text x="400" y="220" text-anchor="middle" font-size="13" fill="#555">たとえ: 接客マニュアル</text>
+<text x="400" y="250" text-anchor="middle" font-size="13" fill="#555">育つ: 答え方の型</text>
+<!-- stage 3 -->
+<rect x="550" y="80" width="220" height="190" rx="12" fill="#f3e3d6" stroke="#b85c2a" stroke-width="2"/>
+<text x="660" y="112" text-anchor="middle" font-size="17" font-weight="700" fill="#b85c2a">③ 強化学習</text>
+<text x="660" y="132" text-anchor="middle" font-size="13" fill="#b85c2a">（RLHF / 憲法AI）</text>
+<text x="660" y="165" text-anchor="middle" font-size="14" fill="#2b2b2b">人間の好みで</text>
+<text x="660" y="185" text-anchor="middle" font-size="14" fill="#2b2b2b">褒める／叱る（報酬）</text>
+<text x="660" y="220" text-anchor="middle" font-size="13" fill="#555">たとえ: しつけ・社会性</text>
+<text x="660" y="250" text-anchor="middle" font-size="13" fill="#555">育つ: 性格・価値観</text>
+<g stroke="#9a9a9a" stroke-width="2" marker-end="url(#c)"><line x1="252" y1="175" x2="282" y2="175"/><line x1="512" y1="175" x2="542" y2="175"/></g>
+<!-- callouts -->
+<path d="M140 272 L140 300" stroke="#3b6ea5" stroke-width="2"/>
+<rect x="30" y="300" width="220" height="60" rx="8" fill="#3b6ea5"/>
+<text x="140" y="325" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">Jスペース（意識の部屋）は</text>
+<text x="140" y="346" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">ここで勝手に生まれる</text>
+<path d="M660 272 L660 300" stroke="#b85c2a" stroke-width="2"/>
+<rect x="550" y="300" width="220" height="60" rx="8" fill="#b85c2a"/>
+<text x="660" y="325" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">「Claude らしさ」（人格）は</text>
+<text x="660" y="346" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">ここで乗る</text>
+<text x="400" y="385" text-anchor="middle" font-size="12" fill="#9a9a9a">Anthropic 2026-07: Jスペースは事前学習の段階ですでに存在。強化学習の後で「Claude の視点」の特徴が付く</text>
+</svg>

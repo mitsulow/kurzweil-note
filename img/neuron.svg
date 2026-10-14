@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="420" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">本物のニューロンと、人工ニューロン</text>
+<!-- biological -->
+<text x="190" y="70" text-anchor="middle" font-size="16" fill="#b85c2a" font-weight="700">脳の神経細胞</text>
+<g stroke="#3b6ea5" stroke-width="3" fill="none" stroke-linecap="round">
+  <path d="M60 130 Q110 160 150 190"/><path d="M50 200 Q110 200 150 200"/><path d="M60 270 Q110 240 150 210"/>
+  <path d="M80 110 L95 140"/><path d="M40 160 L70 185"/><path d="M40 240 L70 215"/><path d="M80 290 L95 260"/>
+  <path d="M215 200 L330 200"/><path d="M330 200 L350 180"/><path d="M330 200 L350 200"/><path d="M330 200 L350 220"/>
+</g>
+<circle cx="180" cy="200" r="35" fill="#3b6ea5"/>
+<text x="180" y="205" text-anchor="middle" fill="#fff" font-size="13">細胞体</text>
+<text x="70" y="320" font-size="13" fill="#555">樹状突起 = 入力</text>
+<text x="240" y="185" font-size="13" fill="#555">軸索 = 出力</text>
+<text x="100" y="345" font-size="13" fill="#555">シナプスの強さが学習で変わる</text>
+<!-- artificial -->
+<text x="600" y="70" text-anchor="middle" font-size="16" fill="#b85c2a" font-weight="700">人工ニューロン（多数決をする係）</text>
+<g font-size="14" fill="#2b2b2b">
+  <circle cx="470" cy="140" r="18" fill="#e8e2d6"/><text x="470" y="145" text-anchor="middle">x1</text>
+  <circle cx="470" cy="200" r="18" fill="#e8e2d6"/><text x="470" y="205" text-anchor="middle">x2</text>
+  <circle cx="470" cy="260" r="18" fill="#e8e2d6"/><text x="470" y="265" text-anchor="middle">x3</text>
+</g>
+<g stroke="#9a9a9a" stroke-width="2">
+  <line x1="488" y1="140" x2="580" y2="190"/><line x1="488" y1="200" x2="580" y2="200"/><line x1="488" y1="260" x2="580" y2="210"/>
+</g>
+<g font-size="12" fill="#b85c2a" font-weight="700">
+  <text x="520" y="155">×0.9</text><text x="520" y="195">×0.2</text><text x="520" y="245">×0.5</text>
+</g>
+<circle cx="610" cy="200" r="32" fill="#3b6ea5"/>
+<text x="610" y="196" text-anchor="middle" fill="#fff" font-size="13">合計</text>
+<text x="610" y="213" text-anchor="middle" fill="#fff" font-size="11">しきい値?</text>
+<line x1="642" y1="200" x2="720" y2="200" stroke="#4a8a5c" stroke-width="3"/>
+<polygon points="720,192 736,200 720,208" fill="#4a8a5c"/>
+<text x="745" y="205" font-size="14" fill="#4a8a5c" font-weight="700">はい/いいえ</text>
+<text x="420" y="320" font-size="13" fill="#555">入力 = 他の係の意見　　×数字 = 信頼度（重み）</text>
+<text x="420" y="345" font-size="13" fill="#555">学習 = 間違えたら「誰を重く見すぎたか」を少し直す。これを何億回</text>
+<text x="400" y="395" text-anchor="middle" font-size="13" fill="#9a9a9a">1943 マカロック＆ピッツ → 1958 パーセプトロン（ローゼンブラット）</text>
+</svg>

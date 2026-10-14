@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Hiragino Sans, Noto Sans JP, Yu Gothic UI, sans-serif" font-size="15">
+<rect width="800" height="400" rx="14" fill="#fbf8f2"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#2b2b2b">RSI: AI が自分より優れた AI を作り、その AI がさらに作る、そのループ</text>
+<defs><marker id="g" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b85c2a"/></marker></defs>
+<!-- human -->
+<rect x="40" y="150" width="110" height="80" rx="10" fill="#cfc7b8"/>
+<text x="95" y="185" text-anchor="middle" font-weight="700" fill="#2b2b2b">人間</text>
+<text x="95" y="208" text-anchor="middle" font-size="14" fill="#2b2b2b">知能 100</text>
+<text x="95" y="260" text-anchor="middle" font-size="12" fill="#555">ずっと 100 のまま</text>
+<!-- ai boxes growing -->
+<g text-anchor="middle" font-weight="700">
+  <rect x="200" y="160" width="90" height="70" rx="10" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/><text x="245" y="190" fill="#3b6ea5">AI ①</text><text x="245" y="212" font-size="14" font-weight="400" fill="#2b2b2b">101</text>
+  <rect x="330" y="150" width="90" height="80" rx="10" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/><text x="375" y="185" fill="#3b6ea5">AI ②</text><text x="375" y="210" font-size="14" font-weight="400" fill="#2b2b2b">103</text>
+  <rect x="460" y="135" width="90" height="95" rx="10" fill="#dbe6f3" stroke="#3b6ea5" stroke-width="2"/><text x="505" y="178" fill="#3b6ea5">AI ③</text><text x="505" y="205" font-size="14" font-weight="400" fill="#2b2b2b">107</text>
+  <rect x="590" y="110" width="90" height="120" rx="10" fill="#f3e3d6" stroke="#b85c2a" stroke-width="3"/><text x="635" y="165" fill="#b85c2a">AI ④</text><text x="635" y="192" font-size="14" font-weight="400" fill="#2b2b2b">115</text>
+  <text x="735" y="175" font-size="26" fill="#b85c2a">…</text>
+</g>
+<g stroke="#b85c2a" stroke-width="3" marker-end="url(#g)" fill="none">
+  <line x1="152" y1="195" x2="195" y2="195"/>
+  <path d="M292 195 Q311 175 325 190"/><path d="M422 190 Q441 165 455 180"/><path d="M552 180 Q571 150 585 165"/>
+</g>
+<g font-size="12" fill="#b85c2a" text-anchor="middle">
+  <text x="173" y="180">作る</text><text x="311" y="165">作る</text><text x="441" y="155">作る</text><text x="571" y="138">作る</text>
+</g>
+<!-- line of sight -->
+<line x1="40" y1="290" x2="480" y2="290" stroke="#4a8a5c" stroke-width="2"/>
+<line x1="480" y1="290" x2="760" y2="290" stroke="#9a9a9a" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="260" y="312" text-anchor="middle" font-size="13" fill="#4a8a5c">人間が検算できる範囲</text>
+<text x="620" y="312" text-anchor="middle" font-size="13" fill="#9a9a9a">何をしているか分からない</text>
+<text x="400" y="350" text-anchor="middle" font-size="13" fill="#555">差が差を生む（複利）。1 世代が 20 年ではなく数か月。「子」は自分のコピーを 1 万体同時に走らせられる</text>
+<text x="400" y="380" text-anchor="middle" font-size="12" fill="#9a9a9a">I.J. グッド 1965「知能爆発」　／　カーツワイル「人間に届いたら、轟音を上げて追い抜く」　／　2026-10 時点: 完全自律ループは未公表</text>
+</svg>
