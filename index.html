@@ -45,6 +45,7 @@ img{max-width:100%;height:auto;display:block;margin:1.2em auto;border-radius:10p
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script>
 const pages = [
+  {id:"abstract", file:"08_アブストラクト.md",      label:"アブストラクト"},
   {id:"policy", file:"00_方針.md",            label:"方針"},
   {id:"quotes", file:"01_名言集と生い立ち.md", label:"名言集・生い立ち"},
   {id:"mind",   file:"02_意識とAI.md",       label:"意識とAI"},
@@ -60,7 +61,7 @@ pages.forEach(p=>{
   const a=document.createElement("a"); a.href="#"+p.id; a.textContent=p.label; a.id="nav-"+p.id; nav.appendChild(a);
 });
 async function show(){
-  const id=(location.hash||"#policy").slice(1);
+  const id=(location.hash||"#abstract").slice(1);
   const p=pages.find(x=>x.id===id)||pages[0];
   document.querySelectorAll(".bar a").forEach(a=>a.classList.toggle("on",a.id==="nav-"+p.id));
   main.innerHTML='<div class="loading">読み込み中…</div>';
